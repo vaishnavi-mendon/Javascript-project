@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dosis:wght@200&family=Rubik+Vinyl&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:rgb(209, 89, 179);
+    padding: 5px 60px;
+}
+
+.item{
+    background-color: #978d8d;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border-style: solid;
+    margin: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.item img{
+    max-width:   100%;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 207, 246);
+}
+
+.section{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+button{
+    background-color:rgb(207, 207, 246);
+}
+
+input{
+    background-color:rgb(207, 207, 246);
+}
